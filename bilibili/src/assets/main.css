@@ -1,0 +1,16 @@
+/* @import './base.css'; */
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: normal;
+  min-width: 300px;
+  height: 100vh;
+}
+
+@media (min-width: 602px) {
+   #app{
+      border: 1px solid white;
+   }    
+}
+  
